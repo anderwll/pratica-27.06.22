@@ -9,6 +9,13 @@ const SmartphoneTela = styled.div`
   text-align: center;
   flex-direction: column;
 
+  h1 {
+    font-size: 50px;
+    margin-bottom: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5d2938;
+  }
+
   h3 {
     margin: 20px;
   }

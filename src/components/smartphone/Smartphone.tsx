@@ -19,10 +19,10 @@ function Smartphone() {
   return (
     <SmartphoneStyled>
       <SmartphoneTela>
-        <Grid item xs={4} md={4}>
+        <Grid item xs={3} md={3}>
           <h1>useRef()</h1>
           <h3>Digitado na input:</h3>
-          <p>{name}</p>
+          <p>({name})</p>
           <h3>Contador:</h3>
           <p>{contador.current}</p>
 
