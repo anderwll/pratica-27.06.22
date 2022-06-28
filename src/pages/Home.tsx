@@ -1,20 +1,8 @@
 import React from 'react'
-import Header from '../components/Banner/Banner'
-import imgBanner from '../assets/image-bg.jpg'
-import SectionIcons from '../components/SectionIcons/SectionIcons'
-import Footer from '../components/Footer/Footer'
+import Smartphone from '../components/smartphone/Smartphone'
 
 const Home: React.FC = () => {
-  return (
-    <>
-      <Header
-        titulo="Minha primeira aplicação com ReactJS."
-        background={imgBanner}
-      />
-      <SectionIcons />
-      <Footer />
-    </>
-  )
+  return <Smartphone />
 }
 
 export default Home
