@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 const SmartphoneTela = styled.div`
-  width: 350px;
-  height: 750px;
+  max-width: 350px;
+  max-height: 750px;
   display: flex;
   justify-content: center;
   align-items: center;

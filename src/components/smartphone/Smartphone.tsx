@@ -14,6 +14,7 @@ function Smartphone() {
 
   function focusInput() {
     inputRef.current?.focus()
+    console.log(inputRef.current)
   }
 
   return (
